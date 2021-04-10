@@ -29,7 +29,7 @@ In this work, we propose AI-FFPE pipeline which is optimized for histopathology 
 
 - Clone this repo:
 ```bash
-git clone https://github.com/CapsuleEndoscope/AI-FFPE AI-FFPE
+git clone https://github.com/DeepMIALab/AI-FFPE
 cd AI-FFPE
 ```
 
