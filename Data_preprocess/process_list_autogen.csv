@@ -1,0 +1,4 @@
+slide_id,process,status,seg_level,sthresh,mthresh,close,use_otsu,a_t,a_h,max_n_holes,vis_level,line_thickness,white_thresh,black_thresh,use_padding,contour_fn
+TCGA-AA-3685-01A-02-BS2.9a9b28f6-ceba-4edb-b967-082b91ee9736,0,processed,2,8,7,4,False,100,16,8,2,250,5,40,True,four_pt
+TCGA-AA-A01G-01A-01-TS1.2118f70a-7165-49a2-a66d-df105113755f,0,processed,3,8,7,4,False,100,16,8,3,250,5,40,True,four_pt
+TCGA-AD-A5EJ-01A-01-TS1.6606E358-74AA-428D-A8FD-6CCC89385628,0,processed,3,8,7,4,False,100,16,8,3,250,5,40,True,four_pt
