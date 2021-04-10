@@ -2,7 +2,7 @@
 
 # Deep Learning-based Frozen Section to FFPE Translation
 
-<img src="imgs/overview3.jpeg" width="800px"/>
+<img src="imgs/overview.jpeg" width="800px"/>
 
 ### [Paper](https://arxiv.org/pdf/) | [Brain Dataset]() |  [Lung Dataset]() | [WebSite](https://deepmia-test.boun.edu.tr/) 
 
