@@ -65,8 +65,9 @@ python test.py --dataroot ./datasets/Frozen/Lung  --name FrozGAN --CUT_mode CUT 
 
 The test results will be saved to a html file here: --results-dir selected directory.
 
+### AI-FFPE, AI-FFPE without Spatial Attention Block, AI-FFPE without self-regularization loss, CUT, FastCUT, and CycleGAN
 
-
+<img src="imgs/ablation.png" width="800px"/>
 
 CUT is trained with the identity preservation loss and with `lambda_NCE=1`, while FastCUT is trained without the identity loss but with higher `lambda_NCE=10.0`. Compared to CycleGAN, CUT learns to perform more powerful distribution matching, while FastCUT is designed as a lighter (half the GPU memory, can fit a larger image), and faster (twice faster to train) alternative to CycleGAN. Please refer to the [paper](https://arxiv.org/abs/2007.15651) for more details.
 
