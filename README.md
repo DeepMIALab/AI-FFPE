@@ -15,8 +15,11 @@ In this work, we propose AI-FFPE pipeline which is optimized for histopathology 
 
 ## Example Results
 
-### Frozen to FFPE Translation
-<img src="imgs/frozen2ffpe.gif" width="800px"/>
+### Frozen to FFPE Translation in Brain Specimens
+<img src="imgs/brain_gif.gif" width="800px"/>
+
+### Frozen to FFPE Translation in Lung Specimens
+<img src="imgs/lung_gif.gif" width="800px"/>
 
 
 ## Prerequisites
