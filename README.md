@@ -92,7 +92,7 @@ If you find our work useful in your research or if you use parts of this code pl
 ```
 @misc{ozyoruk2021frozen2ffpe,
       title={Deep Learning-based Frozen Section to FFPE Translation}, 
-      author={ Kutsev Bengisu Ozyoruk, Sermet Can, Guliz Irem Gokceler, Kayhan Başak, Uguray Payam Hacisalihoglu, Berkan Darbaz, Mohamad Kassab, Ming Y. Lu, Tiffany Y. Chen, Drew F. K. Williamson, Faisal Mahmood and Mehmet Turan},
+      author={ Kutsev Bengisu Ozyoruk, Sermet Can, Guliz Irem Gokceler, Kayhan Başak, Derya Demir, Gurdeniz Serin, Uguray Payam Hacisalihoglu, Berkan Darbaz, Mohamad Kassab, Ming Y. Lu, Tiffany Y. Chen, Drew F. K. Williamson, Faisal Mahmood and Mehmet Turan},
       year={2020},
       eprint={2006.16670},
       archivePrefix={arXiv},
@@ -100,35 +100,9 @@ If you find our work useful in your research or if you use parts of this code pl
 }
 ```
 
-### Citation
-
-If you use the original CUT code for your research, please cite the [paper](https://arxiv.org/pdf/2007.15651).
-```
-@inproceedings{park2020cut,
-  title={Contrastive Learning for Unpaired Image-to-Image Translation},
-  author={Taesung Park and Alexei A. Efros and Richard Zhang and Jun-Yan Zhu},
-  booktitle={European Conference on Computer Vision},
-  year={2020}
-}
-```
-
-If you use the original [pix2pix](https://phillipi.github.io/pix2pix/) and [CycleGAN](https://junyanz.github.io/CycleGAN/) model included in this repo, please cite the following papers
-```
-@inproceedings{CycleGAN2017,
-  title={Unpaired Image-to-Image Translation using Cycle-Consistent Adversarial Networks},
-  author={Zhu, Jun-Yan and Park, Taesung and Isola, Phillip and Efros, Alexei A},
-  booktitle={IEEE International Conference on Computer Vision (ICCV)},
-  year={2017}
-}
 
 
-@inproceedings{isola2017image,
-  title={Image-to-Image Translation with Conditional Adversarial Networks},
-  author={Isola, Phillip and Zhu, Jun-Yan and Zhou, Tinghui and Efros, Alexei A},
-  booktitle={IEEE Conference on Computer Vision and Pattern Recognition (CVPR)},
-  year={2017}
-}
-```
+
 
 
 ### Acknowledgments
