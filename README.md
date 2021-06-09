@@ -4,8 +4,7 @@
 
 <img src="imgs/overview.jpeg" width="800px"/>
 
-### [Paper](https://arxiv.org/pdf/) | [Brain Dataset]() |  [Lung Dataset]() | [WebSite](https://deepmia-test.boun.edu.tr/) 
-
+### [Paper](https://arxiv.org/pdf/) | [Brain Dataset]() |  [Lung Dataset]() | [WebSite](https://deepmia.boun.edu.tr/) 
 
 In this work, we propose AI-FFPE pipeline which is optimized for histopathology images by driving the network attention specifically to the nuclei and tissue preperation protocols related deficiencies. Compared to [CycleGAN](https://github.com/junyanz/CycleGAN), our model training is faster and less memory-intensive.
 
