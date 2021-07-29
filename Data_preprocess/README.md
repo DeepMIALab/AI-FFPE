@@ -58,7 +58,7 @@ Data_Path                # DIR_TO_TRAIN_DATASET
 To convert the frozen patches into AI-FFPE patches with a pretrained model:
 
 ```bash
-python ../test.py DIR_TO_WSI --results-dir DIR_TO_PATCHES
+python ../test.py --dataroot ./datasets/Frozen/Lung  --name ${result_dir_name} --CUT_mode CUT --phase test --epoch ${epoch_number} --num_test ${number_of_test_images}
 ```
 
 To stitch-back the AI-FFPE patches as AI-FFPE WSI:
