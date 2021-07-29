@@ -91,9 +91,9 @@ If you find our work useful in your research or if you use parts of this code pl
 ```
 @misc{ozyoruk2021frozen2ffpe,
       title={Deep Learning-based Frozen Section to FFPE Translation}, 
-      author={ Kutsev Bengisu Ozyoruk, Sermet Can, Guliz Irem Gokceler, Kayhan Başak, Derya Demir, Gurdeniz Serin, Uguray Payam Hacisalihoglu, Berkan Darbaz, Mohamad Kassab, Ming Y. Lu, Tiffany Y. Chen, Drew F. K. Williamson, Faisal Mahmood and Mehmet Turan},
-      year={2020},
-      eprint={2006.16670},
+      author={ Kutsev Bengisu Ozyoruk, Sermet Can, Guliz Irem Gokceler, Kayhan Başak, Derya Demir, Gurdeniz Serin, Uguray Payam Hacisalihoglu, Berkan Darbaz,  Ming Y. Lu, Tiffany Y. Chen, Drew F. K. Williamson, Funda Yilmaz, Faisal Mahmood and Mehmet Turan},
+      year={2021},
+      eprint={2107.11786},
       archivePrefix={arXiv},
       primaryClass={cs.CV}
 }
