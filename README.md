@@ -41,12 +41,33 @@ cd AI-FFPE
 
   For Conda users,  you can create a new Conda environment using `conda env create -f environment.yml`.
 
-
 ### Training and Test
 
 - Download the `Frozen_Lung` dataset (Fig. 4 of the paper. Frozen_Lung -> FFPE_LUNG)
 - 
 The dataset is downloaded and unzipped at `./datasets/Frozen/Lung/`.
+
+The data used for training are expected to be organized as follows:
+```bash
+Data_Path                # DIR_TO_TRAIN_DATASET
+ ├──  trainA
+ |      ├── 1.png     
+ |      ├── ...
+ |      └── n.png
+ ├──  trainB     
+ |      ├── 1.png     
+ |      ├── ...
+ |      └── m.png
+ ├──  valA
+ |      ├── 1.png     
+ |      ├── ...
+ |      └── k.png
+ └──  valB     
+        ├── 1.png     
+        ├── ...
+        └── l.png
+
+```
 
 - To view training results and loss plots, run `python -m visdom.server` and click the URL http://localhost:8097.
 
