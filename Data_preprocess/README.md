@@ -1,6 +1,6 @@
 # AI-FFPE Data Process
 
-For the dataset processing steps build the environment by running:
+For the dataset processing steps, build the environment by running:
 
 ```bash
 sudo apt-get install openslide-tools
@@ -16,12 +16,12 @@ conda activate frozgan_preprocess
 python create_patches.py --source DIR_TO_WSI --save-dir DIR_TO_PATCHES
 ```
 
-#### Create Patches in the format that is Processable by AI-FFPE Networks
+#### Create Patches in the format that is processable by AI-FFPE Networks
 
 Convert .h5 into ".png" :
 
 ```bash
-python h52png.py  --dataset-dir DIR_TO_TEST_DATASET --output-dir DIR_TO_RESULTS
+python h52png.py  --dataset-dir DIR_TO_H5_DATASET --output-dir DIR_TO_PNG_RESULTS
 ```
 
 By skipping the above step, one can directly run the following to create a training and testing dataset consisting of patches in .png format by considering the patient identity:
