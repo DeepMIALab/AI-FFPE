@@ -48,10 +48,6 @@ Data_Path                # DIR_TO_TRAIN_DATASET
         └── l.png
 
 ```
-### Pretrained Models
-
-Pretrained models for AI-FFPE can be downloaded [here!](https://www.dropbox.com/s/92qjxy2uxvf599b/08-13-00%3A00.zip?dl=0)
-
 
 To convert the frozen patches into AI-FFPE patches with a pretrained model:
 
@@ -62,7 +58,7 @@ python test.py DIR_TO_WSI --results-dir DIR_TO_PATCHES
 To stitch-back the AI-FFPE patches as AI-FFPE WSI:
 
 ```bash
-python stitiching.py --h5-path  --results-dir DIR_TO_PATCHES
+python stitiching.py --h5-path DIR_TO_H5  --results-dir DIR_TO_PATCHES
 ```
 
 
