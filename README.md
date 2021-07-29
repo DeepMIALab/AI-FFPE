@@ -62,11 +62,11 @@ Data_Path                # DIR_TO_TRAIN_DATASET
  ├──  valA
  |      ├── 1.png     
  |      ├── ...
- |      └── k.png
+ |      └── j.png
  └──  valB     
         ├── 1.png     
         ├── ...
-        └── l.png
+        └── k.png
 
 ```
 
