@@ -99,13 +99,13 @@ For reproducability, you can download the pretrained models for each algorithm [
 If you find our work useful in your research or if you use parts of this code please consider citing our paper:
 
 ```
-@misc{ozyoruk2021frozen2ffpe,
+@misc{ozyoruk2021deep,
       title={Deep Learning-based Frozen Section to FFPE Translation}, 
-      author={ Kutsev Bengisu Ozyoruk, Sermet Can, Guliz Irem Gokceler, Kayhan Başak, Derya Demir, Gurdeniz Serin, Uguray Payam Hacisalihoglu, Berkan Darbaz,  Ming Y. Lu, Tiffany Y. Chen, Drew F. K. Williamson, Funda Yilmaz, Faisal Mahmood and Mehmet Turan},
+      author={Kutsev Bengisu Ozyoruk and Sermet Can and Guliz Irem Gokceler and Kayhan Basak and Derya Demir and Gurdeniz Serin and Uguray Payam Hacisalihoglu and Berkan Darbaz and Ming Y. Lu and Tiffany Y. Chen and Drew F. K. Williamson and Funda Yilmaz and Faisal Mahmood and Mehmet Turan},
       year={2021},
       eprint={2107.11786},
       archivePrefix={arXiv},
-      primaryClass={cs.CV}
+      primaryClass={eess.IV}
 }
 ```
 
