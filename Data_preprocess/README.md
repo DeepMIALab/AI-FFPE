@@ -4,8 +4,8 @@ For the dataset processing steps build the environment by running:
 
 ```bash
 sudo apt-get install openslide-tools
-conda env create -n frozgan_preprocess -f requirements.yaml
-conda activate frozgan_preprocess
+conda env create -n AIFFPE_preprocess -f requirements.yaml
+conda activate AIFFPE_preprocess
 ```
 
 #### Create Patches
