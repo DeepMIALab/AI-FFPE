@@ -24,7 +24,7 @@ Convert .h5 into ".png" :
 python h52png.py  --dataset-dir DIR_TO_TEST_DATASET --output-dir DIR_TO_RESULTS
 ```
 
-By skipping the above step, one can directly run the following to create a training and testing dataset by considering the patient identity:
+By skipping the above step, one can directly run the following to create a training and testing dataset consisting of patches in .png format by considering the patient identity:
 
 ```bash
 python patch_discriminator.py  --frozen-dir DIR_TO_FROZEN_H5 --ffpe-dir DIR_TO_FFPE_H5 --train-thresh TRAIN_SPLIT_RATIO --test-thresh TEST_SPLIT_RATIO --output-dir DIR_TO_PATCHES
