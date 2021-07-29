@@ -3,7 +3,9 @@
 For the dataset processing steps build the environment by running:
 
 ```bash
-pip install requirements.txt
+sudo apt-get install openslide-tools
+conda env create -n clam -f docs/requirements.yaml
+conda activate requirements
 ```
 
 #### Create Patches
@@ -11,7 +13,7 @@ pip install requirements.txt
  One can start to create patches by following commend:
 
 ```bash
-python create_patches.py DIR_TO_WSI --results-dir DIR_TO_PATCHES
+python create_patches.py --source DIR_TO_WSI --save-dir DIR_TO_PATCHES
 ```
 
 #### Create Patches in the format that is Processable by AI-FFPE Networks
