@@ -24,7 +24,7 @@ Convert .h5 into ".png" :
 python h52png.py  --dataset-dir DIR_TO_TEST_DATASET --output-dir DIR_TO_RESULTS
 ```
 
-To creaate a training and testing dataset by considering the patient identity:
+To create a training and testing dataset by considering the patient identity:
 
 As a result, you are supposed to have the training dataset in following structure:
 
