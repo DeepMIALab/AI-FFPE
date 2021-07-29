@@ -43,9 +43,10 @@ cd AI-FFPE
 
 ### Training and Test
 
-- Download the `Frozen_Lung` dataset (Fig. 4 of the paper. Frozen_Lung -> FFPE_LUNG)
-- 
-The dataset is downloaded and unzipped at `./datasets/Frozen/Lung/`.
+- Download the `[Frozen_Brain](https://portal.gdc.cancer.gov/projects/TCGA-LUAD)` dataset (Fig. 3 of the paper. Frozen_Brain -> FFPE_BRAIN).
+- Unzip the dataset at `./datasets/Frozen/Brain/`.
+- Download the `[Frozen_Lung](https://portal.gdc.cancer.gov/projects/TCGA-LUAD)` dataset (Fig. 4 of the paper. Frozen_Lung -> FFPE_LUNG).
+- Unzip the dataset at `./datasets/Frozen/Lung/`.
 
 The data used for training are expected to be organized as follows:
 ```bash
@@ -73,15 +74,17 @@ Data_Path                # DIR_TO_TRAIN_DATASET
 
 - Train the AI-FFPE model:
 ```bash
-python train.py --dataroot ./datasets/Frozen/Lung --name FrozGAN --CUT_mode CUT --batch_size 1
+python train.py --dataroot ./datasets/${dataroot_dir_name} --name ${result_dir_name} --CUT_mode CUT --batch_size 1
 ```
 
 - Test the AI-FFPE  model:
 ```bash
-python test.py --dataroot ./datasets/Frozen/Lung  --name FrozGAN_test --CUT_mode CUT --phase test --epoch {__epoch_number__} --num_test {__number_of_test_images__}
+python test.py --dataroot ./datasets/Frozen/Lung  --name ${result_dir_name} --CUT_mode CUT --phase test --epoch ${epoch_number} --num_test ${number_of_test_images}
 ```
 
-The test results will be saved to a html file here: --results-dir selected directory.
+The test results will be saved to a html file here: "./results/${result_dir_name}/latest_train/index.html". 
+
+
 
 ### AI-FFPE, AI-FFPE without Spatial Attention Block, AI-FFPE without self-regularization loss, CUT, FastCUT, and CycleGAN
 
@@ -89,9 +92,7 @@ The test results will be saved to a html file here: --results-dir selected direc
 
 ### Apply a pre-trained AI-FFPE model and evaluate
 
-You can download the pretrained models for each algorithm [here.](https://www.dropbox.com/sh/x7fvxx1fiohxwb4/AAAObJJTJpIHHi-s2UafrKeea?dl=0)
-
-
+For reproducability, you can download the pretrained models for each algorithm [here.](https://www.dropbox.com/sh/x7fvxx1fiohxwb4/AAAObJJTJpIHHi-s2UafrKeea?dl=0)
 
 ## Reference
 
@@ -107,9 +108,6 @@ If you find our work useful in your research or if you use parts of this code pl
       primaryClass={cs.CV}
 }
 ```
-
-
-
 
 
 
