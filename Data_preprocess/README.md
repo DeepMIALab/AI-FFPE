@@ -66,10 +66,9 @@ To stitch-back the AI-FFPE patches as AI-FFPE WSI:
 ```bash
 python stitiching.py --h5-inpath DIR_TO_H5 --down-ratio DOWN_SCALE  --preds-path DIR_TO_PREDICTED_PATCHES --output-dir DIR_TO_STITCHED_IMAGE
 ```
-To visualize the stitched ".png" in the QuPath or similar application, one need to change the format of the file:
+To visualize the stitched ".png" in the QuPath or similar application, one need to change the format of the file as ".tiff":
 
 ```bash
-python png2tiff.py --h5-inpath DIR_TO_H5 --down-ratio DOWN_SCALE  
+python png2tiff.py --input-dir DIR_TO_PNG --output-dir DIR_TO_TIFF  
 ```
-
 
