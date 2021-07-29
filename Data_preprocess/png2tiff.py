@@ -11,8 +11,8 @@ parser.add_argument('--output-path', type=str,help='sequence length for training
 
 args = parser.parse_args()
 
-jpg_path = os.path.join(args.input_path,"*.png") #"/media/bou02/6TB_3/"
-#"/media/bou02/6TB_3/"
+jpg_path = os.path.join(args.input_path,"*.png")
+
 
 for i in glob.glob(jpg_path):
 	im = Image.open(i)
