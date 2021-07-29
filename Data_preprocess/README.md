@@ -58,7 +58,7 @@ Data_Path                # DIR_TO_TRAIN_DATASET
 To convert the frozen patches into AI-FFPE patches with a pretrained model:
 
 ```bash
-python ../test.py --dataroot ./datasets/Frozen/Lung  --name ${result_dir_name} --CUT_mode CUT --phase test --epoch ${epoch_number} --num_test ${number_of_test_images}
+python ../test.py DIR_TO_WSI --results-dir DIR_TO_PATCHES
 ```
 
 To stitch-back the AI-FFPE patches as AI-FFPE WSI:
@@ -66,6 +66,10 @@ To stitch-back the AI-FFPE patches as AI-FFPE WSI:
 ```bash
 python stitiching.py --h5-inpath DIR_TO_H5 --down-ratio DOWN_SCALE  --preds-path DIR_TO_PREDICTED_PATCHES --output-dir DIR_TO_STITCHED_IMAGE
 ```
+To visualize the stitched ".png" in the QuPath or similar application, one need to change the format of the file:
 
+```bash
+python png2tiff.py --h5-inpath DIR_TO_H5 --down-ratio DOWN_SCALE  
+```
 
 
