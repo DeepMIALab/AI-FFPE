@@ -19,7 +19,7 @@ python create_patches.py DIR_TO_WSI --results-dir DIR_TO_PATCHES
 Convert .h5 into ".png" :
 
 ```bash
-python h52png.py  --pretrained-posenet DIR_TO_PRETRAINED_MODEL --dataset-dir DIR_TO_TEST_DATASET --output-dir DIR_TO_RESULTS
+python h52png.py  --dataset-dir DIR_TO_TEST_DATASET --output-dir DIR_TO_RESULTS
 ```
 
 To creaate a training and testing dataset by considering the patient identity:
