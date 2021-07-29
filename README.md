@@ -45,9 +45,7 @@ cd AI-FFPE
 ### Training and Test
 
 - Download the `Frozen_Lung` dataset (Fig. 4 of the paper. Frozen_Lung -> FFPE_LUNG)
-```bash
-bash ./datasets/download_cut_dataset.sh grumpifycat
-```
+- 
 The dataset is downloaded and unzipped at `./datasets/Frozen/Lung/`.
 
 - To view training results and loss plots, run `python -m visdom.server` and click the URL http://localhost:8097.
@@ -68,12 +66,10 @@ The test results will be saved to a html file here: --results-dir selected direc
 
 <img src="imgs/ablation.png" width="800px"/>
 
-CUT is trained with the identity preservation loss and with `lambda_NCE=1`, while FastCUT is trained without the identity loss but with higher `lambda_NCE=10.0`. Compared to CycleGAN, CUT learns to perform more powerful distribution matching, while FastCUT is designed as a lighter (half the GPU memory, can fit a larger image), and faster (twice faster to train) alternative to CycleGAN. Please refer to the [paper](https://arxiv.org/abs/2007.15651) for more details.
-
 ### Apply a pre-trained AI-FFPE model and evaluate
 
 You can download the pretrained models for each algorithm [here.](https://www.dropbox.com/sh/x7fvxx1fiohxwb4/AAAObJJTJpIHHi-s2UafrKeea?dl=0)
-The tutorial for using pretrained models will be released soon.
+
 
 
 ## Reference
