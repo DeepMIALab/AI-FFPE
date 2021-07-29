@@ -35,7 +35,7 @@ parser.add_argument('--down-ratio', default=1, type=int, help='stitching downsca
 parser.add_argument('--h5-inpath', type=str, help='.h5 path')
 
 parser.add_argument('--preds-path', type=str, help='FrozGAN preds path')
-parser.add_argument('--fakest-path', type=str, help='output path')
+parser.add_argument('--output-dir', type=str, help='output path')
 
 args = parser.parse_args()
 
@@ -125,8 +125,8 @@ down_ratio = args.down_ratio
 for i in glob(str(args.h5_inpath)+"/*.h5"):
 	h5_path = i
 
-preds_path = args.preds_path #"/media/bou02/6TB_3/TCGA_stitch/LGG/results/Case_3/Frozgan/test_latest/images/fake_B"
+preds_path = args.preds_path
 heatmap=StitchPatches(h5_path,preds_path, down_ratio)
-out_path = args.fakest_path
+out_path = args.output_dir
 stitch_path = os.path.join(out_path, "fake_stitch"+'.png')
 heatmap.save(stitch_path)
