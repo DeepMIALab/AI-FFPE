@@ -43,9 +43,9 @@ cd AI-FFPE
 
 ### Training and Test
 
-- Download the `[Frozen_Brain](https://portal.gdc.cancer.gov/projects/TCGA-LUAD)` dataset (Fig. 3 of the paper. Frozen_Brain -> FFPE_BRAIN).
+- Download the [Frozen_Brain](https://portal.gdc.cancer.gov/projects/TCGA-GBM) dataset (Fig. 3 of the paper. Frozen_Brain -> FFPE_BRAIN).
 - Unzip the dataset at `./datasets/Frozen/Brain/`.
-- Download the `[Frozen_Lung](https://portal.gdc.cancer.gov/projects/TCGA-LUAD)` dataset (Fig. 4 of the paper. Frozen_Lung -> FFPE_LUNG).
+- Download the [Frozen_Lung](https://portal.gdc.cancer.gov/projects/TCGA-LUAD) dataset (Fig. 4 of the paper. Frozen_Lung -> FFPE_LUNG).
 - Unzip the dataset at `./datasets/Frozen/Lung/`.
 
 The data used for training are expected to be organized as follows:
