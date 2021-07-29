@@ -18,7 +18,7 @@ python create_patches.py --source DIR_TO_WSI --save-dir DIR_TO_PATCHES
 
 #### Create Patches in the format that is Processable by AI-FFPE Networks
 
-Convert .h5 into ".png" :
+Convert ".h5" formatted paatches into ".png" :
 
 ```bash
 python h52png.py  --dataset-dir DIR_TO_TEST_DATASET --output-dir DIR_TO_RESULTS
