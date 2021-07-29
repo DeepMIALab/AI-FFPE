@@ -9,7 +9,7 @@
 In this work, we propose AI-FFPE pipeline which is optimized for histopathology images by driving the network attention specifically to the nuclei and tissue preperation protocols related deficiencies. Compared to [CycleGAN](https://github.com/junyanz/CycleGAN), our model training is faster and less memory-intensive.
 
 <br>
-<img src='imgs/frozgan_loss.gif' align="right" width=960>
+<img src='imgs/frozgan_loss2.gif' align="right" width=960>
 <br>
 
 ## Example Results
