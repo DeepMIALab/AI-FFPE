@@ -73,12 +73,12 @@ Data_Path                # DIR_TO_TRAIN_DATASET
 
 - Train the AI-FFPE model:
 ```bash
-python train.py --dataroot ./datasets/Frozen/Lung --name FrozGAN --CUT_mode CUT
+python train.py --dataroot ./datasets/Frozen/Lung --name FrozGAN --CUT_mode CUT --batch_size 1
 ```
 
 - Test the AI-FFPE  model:
 ```bash
-python test.py --dataroot ./datasets/Frozen/Lung  --name FrozGAN --CUT_mode CUT --phase test
+python test.py --dataroot ./datasets/Frozen/Lung  --name FrozGAN_test --CUT_mode CUT --phase test --epoch {__epoch_number__} --num_test {__number_of_test_images__}
 ```
 
 The test results will be saved to a html file here: --results-dir selected directory.
