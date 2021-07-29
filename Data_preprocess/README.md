@@ -10,7 +10,7 @@ conda activate frozgan_preprocess
 
 #### Create Patches
 
- One can start to create patches by following commend:
+ One can start to create patches in .h5 format by following commend:
 
 ```bash
 python create_patches.py --source DIR_TO_WSI --save-dir DIR_TO_PATCHES
