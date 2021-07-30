@@ -80,7 +80,7 @@ python train.py --dataroot ./datasets/Frozen/${dataroot_train_dir_name} --name $
 python test.py --dataroot ./datasets/Frozen/${dataroot_test_dir_name}  --name ${result_dir_name} --CUT_mode CUT --phase test --epoch ${epoch_number} --num_test ${number_of_test_images}
 ```
 
-The test results will be saved to a html file here: "./results/${result_dir_name}/latest_train/index.html". 
+The test results will be saved to a html file here: ``` ./results/${result_dir_name}/latest_train/index.html ``` 
 
 
 
