@@ -37,9 +37,9 @@ cd AI-FFPE
 
 - Install PyTorch 1.1 and other dependencies (e.g., torchvision, visdom, dominate, gputil).
 
-  For pip users, please type the command `pip install -r requirements.txt`.
+- For pip users, please type the command `pip install -r requirements.txt`.
 
-  For Conda users,  you can create a new Conda environment using `conda env create -f environment.yml`.
+- For Conda users,  you can create a new Conda environment using `conda env create -f environment.yml`.
 
 ### Training and Test
 
