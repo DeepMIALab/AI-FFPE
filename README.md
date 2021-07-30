@@ -43,10 +43,8 @@ cd AI-FFPE
 
 ### Training and Test
 
-- Download the [Frozen_Brain](https://portal.gdc.cancer.gov/projects/TCGA-GBM) dataset (Fig. 3 of the paper. Frozen_Brain -> FFPE_BRAIN).
-- Unzip the dataset at `./datasets/Frozen/Brain/`.
-- Download the [Frozen_Lung](https://portal.gdc.cancer.gov/projects/TCGA-LUAD) dataset (Fig. 4 of the paper. Frozen_Lung -> FFPE_LUNG).
-- Unzip the dataset at `./datasets/Frozen/Lung/`.
+- The slide identity numbers which were used in train, validation and test sets are given as .txt files in [docs/](https://github.com/DeepMIALab/AI-FFPE/tree/main/docs) for both Brain and Lung dataset. To replicate the results, you may download [GBM](https://portal.gdc.cancer.gov/projects/TCGA-GBM), [LGG](https://portal.gdc.cancer.gov/projects/TCGA-LGG), [LUAD](https://portal.gdc.cancer.gov/projects/TCGA-LUAD) and [LUSC](https://portal.gdc.cancer.gov/projects/TCGA-LUSC) projects from TCGA Data Portal and create a subset using these .txt files.
+- To extract the patches from WSIs and create PNG files, please follow the instructions given in [AI-FFPE/Data_preprocess](https://github.com/DeepMIALab/AI-FFPE/tree/main/Data_preprocess) section. 
 
 The data used for training are expected to be organized as follows:
 ```bash
@@ -74,7 +72,7 @@ Data_Path                # DIR_TO_TRAIN_DATASET
 
 - Train the AI-FFPE model:
 ```bash
-python train.py --dataroot ./datasets/Frozen/${dataroot_train_dir_name} --name ${model_result_dir_name} --CUT_mode CUT --batch_size 1
+python train.py --dataroot ./datasets/Frozen/${dataroot_train_dir_name} --name ${model_results_dir_name} --CUT_mode CUT --batch_size 1
 ```
 
 - Test the AI-FFPE  model:
