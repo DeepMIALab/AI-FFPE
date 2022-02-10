@@ -1016,9 +1016,9 @@ class ResnetGenerator(nn.Module):
     def forward(self, input, layers=[], encode_only=False):
         if -1 in layers:
             layers.append(len(self.model))
-            print("-1 layerdaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
+            #print("-1 layerdaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa")
         if len(layers) > 0:
-            print("iffffffffteyimmmmmmmmmmmmmmmmmmmmmmmmmmmm")
+            #print("iffffffffteyimmmmmmmmmmmmmmmmmmmmmmmmmmmm")
             feat = input
             feats = []
             for layer_id, layer in enumerate(self.model):
@@ -1039,7 +1039,7 @@ class ResnetGenerator(nn.Module):
         else:
             """Standard forward"""
             fake = self.model(input)
-            print("elseteyimmmmmmmmmmmmmmmmmmmmmmmmmmmmmm")            
+            #print("elseteyimmmmmmmmmmmmmmmmmmmmmmmmmmmmmm")            
             return fake
 
 
