@@ -1,6 +1,6 @@
 
 
-# Deep Learning-based Frozen Section to FFPE Translation
+# A deep-learning model for transforming the style of tissue images from cryosectioned to formalin-fixed and paraffin-embedded
 
 <img src="imgs/overview.jpeg" width="800px"/>
 
