@@ -97,13 +97,15 @@ For reproducability, you can download the pretrained models for each algorithm [
 If you find our work useful in your research or if you use parts of this code please consider citing our paper:
 
 ```
-@misc{ozyoruk2021deep,
-      title={Deep Learning-based Frozen Section to FFPE Translation}, 
-      author={Kutsev Bengisu Ozyoruk and Sermet Can and Guliz Irem Gokceler and Kayhan Basak and Derya Demir and Gurdeniz Serin and Uguray Payam Hacisalihoglu and Berkan Darbaz and Ming Y. Lu and Tiffany Y. Chen and Drew F. K. Williamson and Funda Yilmaz and Faisal Mahmood and Mehmet Turan},
-      year={2021},
-      eprint={2107.11786},
-      archivePrefix={arXiv},
-      primaryClass={eess.IV}
+@article{article,
+author = {Ozyoruk, Kutsev and Can, Sermet and Darbaz, Berkan and Başak, Kayhan and Demir, Derya and Gokceler, Irem and Serin, Gurdeniz and Hacısalihoglu, Payam and Kurtuluş, Emirhan and Lu, Ming and Chen, Tiffany and Williamson, Drew and Yılmaz, Funda and Mahmood, Faisal and Turan, Mehmet},
+year = {2022},
+month = {12},
+pages = {},
+title = {A deep-learning model for transforming the style of tissue images from cryosectioned to formalin-fixed and paraffin-embedded},
+volume = {6},
+journal = {Nature Biomedical Engineering},
+doi = {10.1038/s41551-022-00952-9}
 }
 ```
 
