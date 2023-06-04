@@ -6,7 +6,7 @@ import functools
 from torch.optim import lr_scheduler
 import numpy as np
 from .stylegan_networks import StyleGAN2Discriminator, StyleGAN2Generator, TileStyleGAN2Discriminator
-
+from .cbam import CBAM
 ###############################################################################
 # Helper Functions
 ###############################################################################
@@ -773,6 +773,7 @@ class ResBlock(nn.Module):
 
         model = []
         model += [Conv2dBlock(dim + nz, dim, 3, 1, 1, norm=norm, activation=activation, pad_type=pad_type)]
+        model+= [CBAM(dim+nz)]
         model += [Conv2dBlock(dim, dim + nz, 3, 1, 1, norm=norm, activation='none', pad_type=pad_type)]
         self.model = nn.Sequential(*model)
 
