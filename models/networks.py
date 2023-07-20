@@ -773,7 +773,7 @@ class ResBlock(nn.Module):
 
         model = []
         model += [Conv2dBlock(dim + nz, dim, 3, 1, 1, norm=norm, activation=activation, pad_type=pad_type)]
-        model+= [CBAM(dim+nz)]
+        #model+= [CBAM(dim+nz)]
         model += [Conv2dBlock(dim, dim + nz, 3, 1, 1, norm=norm, activation='none', pad_type=pad_type)]
         self.model = nn.Sequential(*model)
 
